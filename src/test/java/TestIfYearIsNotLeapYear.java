@@ -27,7 +27,7 @@ public class TestIfYearIsNotLeapYear {
     public void divisible_by_100_not_400(int year) {
         assertFalse(Year.isLeapYear(year));
     }
-    
+
     public static Stream<Arguments> year() {
         return Stream.of(
                 Arguments.of(1700),
